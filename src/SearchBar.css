@@ -1,0 +1,35 @@
+.search-container {
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  .form-control {
+    border: 2px solid rosybrown;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgb(139, 137, 137);
+  }
+  
+  .suggestions-list {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    background:gainsborol;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .suggestions-list li {
+    cursor: pointer;
+  }
+  
+  .suggestions-list li:hover {
+    background-color:rgb(195, 245, 145);
+  }
+  
+  .input-group-text {
+    background-color: white;
+    border: none;
+  }
+  
