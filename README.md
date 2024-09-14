@@ -1,0 +1,2 @@
+# Fast-Finder
+Country --- capital
